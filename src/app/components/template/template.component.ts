@@ -22,10 +22,10 @@ export class TemplateComponent {
 
   guardar(forma:NgForm){
 
-    console.log( "ngForm", forma);
-    console.log( "Valor forma", forma.value);
+    console.log( "ngForm ", forma);
+    console.log( "Valor", forma.value );
 
-    console.log( "Usuario", this.usuario);
+    console.log( "Usuario", this.usuario );
 
   }
 
