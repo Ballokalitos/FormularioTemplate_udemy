@@ -12,11 +12,13 @@ import { NgForm } from '@angular/forms'
 })
 export class TemplateComponent {
 
+
   usuario:Object = {
     nombre: null,
     apellido: null,
     correo: null,
-    pais:""
+    pais:"",
+    sexo:"Mujer"
   }
 
   paises=[{
