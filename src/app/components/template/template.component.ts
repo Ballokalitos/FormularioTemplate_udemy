@@ -31,6 +31,8 @@ export class TemplateComponent {
 
   }]
 
+  sexos:string[]=["Hombre","Mujer","Sin definir"]
+
   constructor() { }
 
   guardar(forma:NgForm){
