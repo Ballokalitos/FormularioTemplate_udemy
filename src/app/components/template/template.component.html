@@ -103,13 +103,28 @@
                </div>
               </div>
 
+              <div class="form-group row">
+                <label class="col-2 col-form-label ">Acepta</label>
+                  <div class="col-md-8 ">
+
+                     <div class="custom-control custom-checkbox">
+                         <input [(ngModel)]="usuario.acepta"
+                                name="acepta"
+                                type="checkbox"
+                                class="custom-control-input"
+                                id="customCheck1"
+                                required>
+                        <label class="custom-control-label" for="customCheck1">Acepta los terminos</label>
+                     </div>
+                  </div>
+               </div>
 
 
       <div class="form-group row">
         <label class="col-2 col-form-label"> </label>
           <div class="input-group col-md-8">
-            <!-- [disabled]="!forma.valid" -->
-             <button
+            <!--  -->
+             <button [disabled]="!forma.valid"
                type="submit" class="btn btn-primary" [ngClass]="{'btn-danger': !forma.valid && forma.dirty , 'btn-success': forma.valid && forma.dirty }">
                Guardar
              </button>

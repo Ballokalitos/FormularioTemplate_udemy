@@ -18,7 +18,8 @@ export class TemplateComponent {
     apellido: null,
     correo: null,
     pais:"",
-    sexo:"Mujer"
+    sexo:"Mujer",
+    acepta:false
   }
 
   paises=[{
