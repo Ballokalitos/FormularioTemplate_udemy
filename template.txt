@@ -1,0 +1,4 @@
+Aproximacion por template
+
+toda la logica se encuentra en el template
+y archivo typescript no tiene logica
